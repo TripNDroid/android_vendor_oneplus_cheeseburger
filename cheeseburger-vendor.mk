@@ -408,7 +408,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/oneplus/cheeseburger/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/oneplus/cheeseburger/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/oneplus/cheeseburger/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/oneplus/cheeseburger/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/oneplus/cheeseburger/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/oneplus/cheeseburger/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
@@ -428,7 +427,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/oneplus/cheeseburger/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/oneplus/cheeseburger/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/oneplus/cheeseburger/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/oneplus/cheeseburger/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/oneplus/cheeseburger/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/oneplus/cheeseburger/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
@@ -499,8 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -655,8 +651,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/oneplus/cheeseburger/proprietary/vendor/lib64/libdrplugin_client.so:system/vendor/lib64/libdrplugin_client.so \
@@ -763,13 +757,10 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     QtiTelephonyService \
     TimeService \
-    datastatusnotification \
     embms \
-    shutdownlistener \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
     ims \
